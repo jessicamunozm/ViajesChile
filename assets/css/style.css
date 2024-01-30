@@ -105,10 +105,25 @@ form {
     margin-right: 8%;
 }
 
-#sendbutton {
+#liveToastBtn {
     color: white;
     background-color:#4fc122;
  
+}
+
+.toast-header {
+    background-color:#4fc122;
+    color: white;
+}
+
+.toast-header img {
+    width: 1.5rem;
+    height: auto;
+}
+
+.toast-body {
+    background-color: white;
+    color: black;
 }
 
 /* FOOTER */

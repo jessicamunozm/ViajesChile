@@ -179,8 +179,21 @@
     <input type="message" class="form-control" style="height: 7rem;" id="exampleInputMessage" placeholder="">
   </div>
 
-  <!-- BOTÓN ENVIAR DE FORMULARIO -->
-<button id="sendbutton" type="button" class="btn">Enviar</button>
+  <!-- BOTÓN ENVIAR DE FORMULARIO CON TOAST -->
+<button id="liveToastBtn" type="button" class="btn">Enviar</button>
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="./assets/img/viajes.svg" class="rounded me-2" alt="...">
+      <strong class="me-auto">Viajes Chile</strong>
+      <small>Enviado Correctamente</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Nos pondremos en contacto contigo pronto
+    </div>
+  </div>
+</div>
 </form>
 </section>
 
