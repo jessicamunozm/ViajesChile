@@ -1,3 +1,132 @@
-*{
+/* BODY */
+
+* {
     margin: 0;
+    }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: quicksand;
+  }
+
+
+/* NAVBAR   */
+.logo {
+    width: 40px;
+}
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* QUIENES SOMOS */
+#quienessomos {
+    margin: 0%; 
+    color: white; 
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    font-size: 1rem;
+}
+
+h1 {
+    text-align: center; 
+    color: white; 
+    padding-top: 2rem; 
+    padding-bottom: 0.5rem; 
+    font-size: 1.5rem;
+}
+
+#quienessomos p {
+    font-size: small;
+}
+
+#quienessomos i {
+    background-color:  #4fc122; 
+    display: block; 
+    text-align: center; 
+    padding-top: 0.5rem; 
+    height: 2rem; 
+    color:white; 
+    margin-bottom: 1rem;
+}
+
+/* DESTACADOS */
+#destacados h2 {
+    text-align: center; 
+    color: white; 
+    padding-top: 1rem; 
+    padding-bottom: 0.5rem; 
+    font-size: 1.5rem;
+}
+
+#destacados hr {
+    color: white;
+}
+
+/* CARDS */
+.card {
+    width: 18rem; 
+    background-color: #4fc122;
+    color: white;
+}
+
+.card p {
+    font-size: small; 
+    line-height:normal;
+}
+
+.card img {
+    height: 100%;
+}
+
+/* CONTACTO */
+
+#contacto {
+    color: white;
+}
+
+#contacto h2 {
+    margin: 0%; 
+    text-align: center; 
+    color: white; 
+    padding-top: 1rem; 
+    font-size: 1.5rem;
+}
+
+form {
+    color: white;
+    margin-top: 1rem; 
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#sendbutton {
+    color: white;
+    background-color:#4fc122;
+ 
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #4fc122;
+    padding: 4% 10% 4% 10%; 
+    margin-top: 4%;
+}
+
+footer p{
+    float: left; 
+    color: white; 
+    font-size: large;
+    font-weight: bolder;
+}
+
+footer a i {
+    color: white;
+    font-size: x-large;
 }
